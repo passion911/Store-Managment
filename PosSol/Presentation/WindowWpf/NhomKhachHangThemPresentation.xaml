@@ -1,0 +1,84 @@
+﻿<Window x:Class="Presentation.WindowWpf.NhomKhachHangThemPresentation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Thêm mới nhóm khách hàng" Height="355" Width="330"  WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        Loaded="Window_Loaded" Icon="/Presentation;component/Image/Icon/fl-addDocument.png">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Style/UserControl.xaml"/>
+                <ResourceDictionary Source="../Style/Textbox.xaml"/>
+                <ResourceDictionary Source="../Style/Button1.xaml"/>
+                <ResourceDictionary Source="../Style/Datagrid.xaml"/>
+                <ResourceDictionary Source="../Style/Label.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                <GradientStop Color="#FFA0B9FB" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <StackPanel Margin="5 0 0 0">
+            <StackPanel Orientation="Horizontal" Margin="0 10 0 0">
+                <Label Content="Mã" Style="{DynamicResource lbControlLeft}" Width="100" VerticalAlignment="Bottom"/>
+                <TextBox x:Name="txtMaNKH" Style="{DynamicResource Textbox1}" FontSize="20" Width="200"  IsEnabled="False"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0 5 0 0">
+                <Label Content="Tên" Style="{DynamicResource lbControlLeft}" Width="100" VerticalAlignment="Bottom"/>
+                <TextBox x:Name="txtTenNKH" TextWrapping="Wrap" Style="{DynamicResource Textbox1}" FontSize="20" Width="200"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0 5 0 0">
+                <Label Content="Chiết khấu %" Style="{DynamicResource lbControlLeft}" Width="100" VerticalAlignment="Bottom"/>
+                <TextBox x:Name="txtChietKhau"  Style="{DynamicResource Textbox1}" FontSize="20" Width="200"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0 5 0 0">
+                <Label Content="Điểm" Style="{DynamicResource lbControlLeft}" Width="100" VerticalAlignment="Bottom"/>
+                <TextBox x:Name="txtDiem"  Style="{DynamicResource Textbox1}" FontSize="20" Width="200"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0 5 0 0">
+                <Label Content="Icon" Style="{DynamicResource lbControlLeft}" Width="100" VerticalAlignment="Top"/>
+                <ComboBox x:Name="cboIcon"  Height="40" Width="60" HorizontalAlignment="Left" SelectedValuePath="TenAnh" SelectedIndex="0" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel>
+                                <Image Source="{Binding DuongDanAnh}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0 5 0 0">
+                <Label Content="Đang dùng" Style="{DynamicResource lbControlLeft}" Width="100" VerticalAlignment="Bottom"/>
+                <CheckBox x:Name="ckDangDung" FontSize="20" Width="200" VerticalAlignment="Center" IsChecked="True"/>
+            </StackPanel>
+
+            <Border BorderBrush="Gray" BorderThickness="0 1 0 1" Margin="0 10 0 0">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="100 5 0 5">
+                    <Button Name="btnLuu" Click="btnLuu_Click" Style="{DynamicResource MetroButtonTomato}" Margin="0 0 0 0" Height="40" Padding="5">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="../Image/Icon/fl_save.png" Stretch="Uniform" Margin="5"/>
+                            <Label Content="Lưu (F1)" Foreground="White" VerticalAlignment="Center" FontSize="13"/>
+                        </StackPanel>
+                    </Button>
+                    <Button Name="btnHuy" Click="btnHuy_Click" Style="{DynamicResource MetroButtonTeal}" Margin="5 0 0 0" Height="40" Padding="5">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="../Image/Icon/fl-cancel.png" Stretch="Uniform" Margin="5" />
+                            <Label Content="Hủy (Esc)" Foreground="White" VerticalAlignment="Center" FontSize="13"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </Border>
+
+            <Label Name="lbWarning" Content="Warning!" Style="{DynamicResource LabelWarning}" FontSize="12"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,156 @@
+﻿<UserControl x:Class="Presentation.UserControls.NhomKhachHangUPresentation"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" d:DesignHeight="300" d:DesignWidth="300"
+             Loaded="UserControl_Loaded"
+             Style="{DynamicResource UserControl}">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Style/UserControl.xaml"/>
+                <ResourceDictionary Source="../Style/Textbox.xaml"/>
+                <ResourceDictionary Source="../Style/Button1.xaml"/>
+                <ResourceDictionary Source="../Style/Datagrid.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <!--Nội dung -->
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                <GradientStop Color="#FFA0B9FB" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <!--Chia dòng-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <!--Tìm kiếm-->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Height="50" Margin="5 0 0 5">
+            <TextBox Name="txtTimKiem" Style="{DynamicResource Textbox1}" FontSize="25" Width="200"/>
+            <Button Name="btnTimKiem" Style="{DynamicResource MetroButtonDarkGreen}" Margin="5 0 0 0" Height="40" Padding="5">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="../Image/Icon/fl-search.png" Stretch="Uniform"/>
+                </StackPanel>
+            </Button>
+
+        </StackPanel>
+
+        <!--DataGrid-->
+        <DataGrid Grid.Row="1" x:Name="dgNhomKhachHang" SelectedItem="{Binding sl, Mode=OneWay}" Style="{DynamicResource Datagrid}" LoadingRow="dgNhomKhachHang_LoadingRow"
+            IsReadOnly="True" RowDetailsVisibilityMode="Collapsed" >
+            <!--Columns-->
+            <DataGrid.Columns>
+
+                <!--Mã nhóm khách hàng-->
+                <DataGridTextColumn Width="100" Header="Mã NHK" Binding="{Binding MaNKH_NKH}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+                <!--Tên nhóm khách hàng-->
+                <DataGridTextColumn Width="2*" Header="Tên NKH" Binding="{Binding TenNKH_NKH}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Left"/>
+                            <Setter Property="Margin" Value="10 0 0 0"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+                <!--Mức chiết khấu %/hóa đơn-->
+                <DataGridTextColumn Width="1*" Header="Chiết khấu (%)" Binding="{Binding ChietKhau_NKH}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+                <!--Điểm cần-->
+                <DataGridTextColumn Width="1*" Header="Điểm cần" Binding="{Binding Diem_NKH}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+                <!--Ảnh nhóm khách hàng-->
+                <DataGridTemplateColumn Width="1*" Header="Ảnh đại diện">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding Anh_NKH}" Stretch="None"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <!--Đang dùng-->
+                <DataGridTemplateColumn Width="1*" Header="Đang dùng">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding DangDung_NKH}" HorizontalAlignment="Center" VerticalAlignment="Center" IsHitTestVisible="False"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <!--Sửa-->
+                <DataGridTemplateColumn Width="50" Header="Sửa">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Name="btnSua" Style="{DynamicResource MetroButtonYellowGreen}" Click="btnSua_Click" Height="30" Padding="2">
+                                <StackPanel>
+                                    <Image  Source="../Image/Icon/fl-edit.png" Stretch="Uniform" Height="20"/>
+                                </StackPanel>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <!--Xóa-->
+                <DataGridTemplateColumn Width="50" Header="Xóa">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Name="btnXoa" Click="btnXoa_Click" Style="{DynamicResource MetroButtonOrange}" Height="30" Padding="2">
+                                <StackPanel>
+                                    <Image Source="../Image/Icon/fl-delete.png" Height="20" Stretch="Uniform" />
+                                </StackPanel>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 0 5 0">
+            <Button Name="btnThemMoi" Click="btnThemMoi_Click" Style="{DynamicResource MetroButtonTomato}" Margin="5 0 0 0" Height="40" Padding="5">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="../Image/Icon/fl-addDocument.png" Stretch="Uniform"/>
+                    <Label Content="Thêm" Foreground="White" VerticalAlignment="Center" FontWeight="Bold"/>
+                </StackPanel>
+            </Button>
+            <Button Name="btnDong" Click="btnDong_Click" Style="{DynamicResource MetroButtonTeal}" Margin="5 0 0 0" Height="40" Padding="5">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="../Image/Icon/fl-cancel.png" Stretch="Uniform"/>
+                    <Label Content="Đóng" Foreground="White" VerticalAlignment="Center" FontWeight="Bold"/>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+        <!--BUTTON-->
+    </Grid>
+</UserControl>

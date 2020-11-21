@@ -1,0 +1,38 @@
+E:\DATN\PROGRAM\PosSol\Business\bin\Debug\Business.dll
+E:\DATN\PROGRAM\PosSol\Business\bin\Debug\Business.pdb
+E:\DATN\PROGRAM\PosSol\Business\bin\Debug\DataAccess.dll
+E:\DATN\PROGRAM\PosSol\Business\bin\Debug\Public.dll
+E:\DATN\PROGRAM\PosSol\Business\bin\Debug\DataAccess.pdb
+E:\DATN\PROGRAM\PosSol\Business\bin\Debug\Public.pdb
+E:\DATN\PROGRAM\PosSol\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+E:\DATN\PROGRAM\PosSol\Business\obj\Debug\Business.dll
+E:\DATN\PROGRAM\PosSol\Business\obj\Debug\Business.pdb
+D:\DATN\DATN\PROGRAM\PosSol\Business\bin\Debug\Business.dll
+D:\DATN\DATN\PROGRAM\PosSol\Business\bin\Debug\Business.pdb
+D:\DATN\DATN\PROGRAM\PosSol\Business\bin\Debug\DataAccess.dll
+D:\DATN\DATN\PROGRAM\PosSol\Business\bin\Debug\Public.dll
+D:\DATN\DATN\PROGRAM\PosSol\Business\bin\Debug\DataAccess.pdb
+D:\DATN\DATN\PROGRAM\PosSol\Business\bin\Debug\Public.pdb
+D:\DATN\DATN\PROGRAM\PosSol\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+D:\DATN\DATN\PROGRAM\PosSol\Business\obj\Debug\Business.dll
+D:\DATN\DATN\PROGRAM\PosSol\Business\obj\Debug\Business.pdb
+C:\Users\mr tung\Desktop\PosSol\PosSol\Business\bin\Debug\Business.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Business\bin\Debug\Business.pdb
+C:\Users\mr tung\Desktop\PosSol\PosSol\Business\bin\Debug\DataAccess.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Business\bin\Debug\Public.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Business\bin\Debug\DataAccess.pdb
+C:\Users\mr tung\Desktop\PosSol\PosSol\Business\bin\Debug\Public.pdb
+C:\Users\mr tung\Desktop\PosSol\PosSol\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Users\mr tung\Desktop\PosSol\PosSol\Business\obj\Debug\Business.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Business\obj\Debug\Business.pdb
+E:\DATN Ql ban hang\code\PosSol\Business\bin\Debug\Business.dll
+E:\DATN Ql ban hang\code\PosSol\Business\bin\Debug\Business.pdb
+E:\DATN Ql ban hang\code\PosSol\Business\bin\Debug\DataAccess.dll
+E:\DATN Ql ban hang\code\PosSol\Business\bin\Debug\Public.dll
+E:\DATN Ql ban hang\code\PosSol\Business\bin\Debug\DataAccess.pdb
+E:\DATN Ql ban hang\code\PosSol\Business\bin\Debug\Public.pdb
+E:\DATN Ql ban hang\code\PosSol\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+E:\DATN Ql ban hang\code\PosSol\Business\obj\Debug\Business.csproj.CopyComplete
+E:\DATN Ql ban hang\code\PosSol\Business\obj\Debug\Business.dll
+E:\DATN Ql ban hang\code\PosSol\Business\obj\Debug\Business.pdb
+E:\DATN Ql ban hang\code\PosSol\Business\obj\Debug\Business.csprojAssemblyReference.cache

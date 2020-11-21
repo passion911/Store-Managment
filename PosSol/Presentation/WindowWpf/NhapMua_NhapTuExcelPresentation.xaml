@@ -1,0 +1,43 @@
+﻿<Window x:Class="Presentation.WindowWpf.NhapMua_NhapTuExcelPresentation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Nhập từ Excel" Height="150" Width="400"
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="/Presentation;component/Image/Icon/fl-excel.png" >
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                <GradientStop Color="#FFA0B9FB" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Content="Chọn file Excel" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5 0 0 0" Padding="0" Foreground="Gray" FontStyle="Italic"/>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="5 0 5 0" HorizontalAlignment="Right">
+            <TextBox Name="txtDuongDan" IsEnabled="False" HorizontalAlignment="Left" VerticalAlignment="Center" Width="330" Height="30" Margin="5 0 5 0"/>
+            <Button Name="btnChonFileExcel" Click="btnChonFileExcel_Click" Height="30" VerticalAlignment="Center" Width="30" Background="BlueViolet" BorderBrush="Transparent">
+                <StackPanel>
+                    <Image Source="../Image/Icon/fl-selectExcelFile.png" Stretch="Uniform" Margin="2"/>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+        <Label Grid.Row="2" Content="Lấy File mẫu" Margin="5 0 0 0" Foreground="Blue" VerticalAlignment="Center" FontStyle="Italic" FontWeight="Bold"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center" Margin=" 0 0 5 0">
+            <Button Name="btnOk" Click="btnOk_Click" Width="80" Height="30" Background="Green" BorderBrush="Transparent">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="../Image/Icon/fl-check.png" Stretch="Uniform" Width="30" Margin="3"/>
+                    <Label Content="Chọn" VerticalAlignment="Center" Foreground="White" FontSize="13" FontWeight="Bold" Padding="0"/>
+                </StackPanel>
+            </Button>
+            <Button Name="btnHuy" Click="btnHuy_Click" Width="70" Height="30" Background="Chocolate" BorderBrush="Transparent">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Image Source="../Image/Icon/fl-cancel.png" Stretch="Uniform" Width="30" Margin="3"/>
+                    <Label Content="Hủy" VerticalAlignment="Center" Foreground="White" FontSize="13" FontWeight="Bold" Padding="0"/>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,69 @@
+﻿<Window x:Name="wpfThemNhomSanPham" x:Class="Presentation.WindowWpf.NhomSanPhamThemPresentation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Thêm mới nhóm sản phẩm" Width="350" Height="350"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="wpfThemNhomSanPham_Loaded" Icon="/Presentation;component/Image/Icon/fl-addDocument.png">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Style/Textbox.xaml"/>
+                <ResourceDictionary Source="../Style/Button1.xaml"/>
+                <ResourceDictionary Source="../Style/Label.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                <GradientStop Color="#FFA0B9FB" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="75"/>
+                <RowDefinition Height="65"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Label Grid.Column="0" Grid.Row="0" Content="Tên nhóm" Style="{DynamicResource lbControlLeft}" Width="100" Margin="10 10 0 0"/>
+            <TextBox Grid.Column="1" Grid.Row="0" x:Name="txtTenNhom" Style="{DynamicResource Textbox1}" FontSize="20" TextChanged="txtTenNhom_TextChanged" Width="200" Margin="0 10 0 0" HorizontalAlignment="Left"/>
+
+            <Label Grid.Column="0" Grid.Row="1" Content="Mã nhóm" Style="{DynamicResource lbControlLeft}" VerticalAlignment="Top" Margin="10 5 0 0" Width="100"/>
+
+            <StackPanel Grid.Column="1" Grid.Row="1" Margin="0 5 0 0" HorizontalAlignment="Left">
+                <TextBox x:Name="txtMaNhom" Style="{DynamicResource Textbox1}" FontSize="20"  HorizontalAlignment="Left" Width="200"/>
+                <TextBlock Text="Mã nhóm đươc sử dụng để đặt cho mã sản phẩm. Nên đặt khoản 2 kí tự." TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0 2 0 0" FontSize="11" Foreground="Gray" Width="200"/>
+            </StackPanel>
+
+            <Label Grid.Column="0" Grid.Row="2" Content="Ghi chú" Style="{DynamicResource lbControlLeft}" VerticalAlignment="Top" Margin="10 5 0 0" Width="100"/>
+            <RichTextBox Grid.Column="1" Grid.Row="2" x:Name="rtxtGhiChu" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0 5 0 0" Height="60" Width="200"/>
+
+            <Label Grid.Column="0" Grid.Row="3" Content="Đang dùng" Style="{DynamicResource lbControlLeft}" Width="100" Margin="10 0 0 0"/>
+            <CheckBox x:Name="ckDangDung" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0" IsChecked="True" Foreground="Green"/>
+
+            <Border Grid.ColumnSpan="2" Grid.Row="4" HorizontalAlignment="Stretch" Padding="0 5 0 5" VerticalAlignment="Top" BorderBrush="Gray" BorderThickness="0 1 0 1" Margin="5 0 5 0">
+                <StackPanel Orientation="Horizontal"  VerticalAlignment="Top" HorizontalAlignment="Center">
+                    <Button Name="btnLuu" Click="btnLuu_Click" Style="{DynamicResource MetroButtonTomato}" Height="40" Padding="5">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="../Image/Icon/fl_save.png" Stretch="Uniform"/>
+                            <Label Content="Lưu" Foreground="White" VerticalAlignment="Center" FontWeight="Bold"/>
+                        </StackPanel>
+                    </Button>
+                    <Button Name="btnHuy" Click="btnHuy_Click" Style="{DynamicResource MetroButtonTeal}" Margin="5 0 0 0" Height="40" Padding="5">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="../Image/Icon/fl-cancel.png" Stretch="Uniform"/>
+                            <Label Content="Hủy" Foreground="White" VerticalAlignment="Center" FontWeight="Bold"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </Border>
+            <Label Grid.Row="4" Grid.ColumnSpan="2" Name="lbWarning" Content="Warning!" Style="{DynamicResource LabelWarning}" FontSize="15" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+        </Grid>
+    </Grid>
+</Window>

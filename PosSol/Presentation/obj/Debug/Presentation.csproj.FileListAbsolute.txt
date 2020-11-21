@@ -1,0 +1,867 @@
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\Presentation.exe.config
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Presentation.csprojResolveAssemblyReference.cache
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\App.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Presentation_MarkupCompile.cache
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Presentation.g.resources
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Presentation.Properties.Resources.resources
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Presentation.csproj.GenerateResource.Cache
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\Presentation.exe
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\Presentation.pdb
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\Business.dll
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\DataAccess.dll
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\Public.dll
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\Business.pdb
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\DataAccess.pdb
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\Public.pdb
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Presentation.exe
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Presentation.pdb
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Main.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Main.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\NhomSanPhamUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\NhomSanPhamUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\Microsoft.Expression.Interactions.dll
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\System.Windows.Interactivity.dll
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\de\System.Windows.Interactivity.resources.dll
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\en\System.Windows.Interactivity.resources.dll
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\es\System.Windows.Interactivity.resources.dll
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\it\System.Windows.Interactivity.resources.dll
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\DATN\PROGRAM\PosSol\Presentation\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhomSanPhamThemPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhomSanPhamThemPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhomSanPhamSuaPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhomSanPhamSuaPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhomSanPhamNhapExcelPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhomSanPhamNhapExcelPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\BanHangUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\BanHangUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Style\DataGrid.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThietLapUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThietLapUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\DonViTinhUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\DonViTinhUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\DonViTinhThemPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\DonViTinhThemPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\DonViTinhSuaPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\DonViTinhSuaPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\NhaCungCapUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\NhaCungCapUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhaCungCapThemPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhaCungCapThemPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhaCungCapSuaPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhaCungCapSuaPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\NhanVienUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\NhanVienUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhanVienThemPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhanVienThemPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\KhachHangUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\KhachHangUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\BanHangThanhToanPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\BanHangThanhToanPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\Window1.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Presentation_MarkupCompile.lref
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\Window1.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Test.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Test.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Style\Image-buton.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhanVienSuaPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhanVienSuaPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Style\UserControl.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\NhomKhachHangUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\NhomKhachHangUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhomKhachHangThemPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhomKhachHangThemPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhomKhachHangSuaPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhomKhachHangSuaPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\KhachHangThemPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\KhachHangThemPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\KhachHangSuaPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\KhachHangSuaPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Style\Button1.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\SanPhamUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\SanPhamUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Style\Textbox.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Style\Label.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\SanPhamSuaPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\SanPhamThemPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\SanPhamSuaPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\SanPhamThemPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Style\TextBlock.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\SanPhamNhapExcelPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\SanPhamNhapExcelPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\KetQuaImportPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\KetQuaImportPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\TaoMaVachUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\TaoMaVachUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\BanHang_KH_UPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\BanHang_KH_UPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\HoaDonBanLe_UPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\HoaDonBanLe_UPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\BatDauUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\BatDauUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\TimKiemSanPhamPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\TimKiemSanPhamPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\NhapMuaUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\NhapMuaUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhapMua_TimKiemSPPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhapMua_TimKiemSPPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhapMuaSuaPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhapMuaSuaPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhapMua_NhapTuExcelPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhapMua_NhapTuExcelPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\BanHangSuaHangMuaPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\BanHangSuaHangMuaPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\BanHangSuaChietKhauPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\BanHangSuaChietKhauPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\KetnoiPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\KetnoiPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\KiemKeUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\KiemKeUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\KiemKe_Presentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\KiemKe_Presentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\KiemKeSuaPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\KiemKeSuaPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\KhoUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\KhoUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\PhanQuyenUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\PhanQuyenUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\DangNhapUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\DangNhapUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\TrangChuUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\TrangChuUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\NhapHangTraUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\NhapHangTraUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhapHangTraThanhToanPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhapHangTraThanhToanPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\LichSuBanHangUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\LichSuBanHangUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\ChiTietHoaDonPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\ChiTietHoaDonPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoSpUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoSpUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\ThongKeTheoSanPham_Presentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\ThongKeTheoSanPham_Presentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoHoaDon.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoHoaDon.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThongKeBaoCaoUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThongKeBaoCaoUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\ThongKeTheoHoaDon_Presentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\ThongKeTheoHoaDon_Presentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoNhanVienUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoNhanVienUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\ThongKeTheoNhanVien_Presentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\ThongKeTheoNhanVien_Presentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\ThongKeTheoNhanVienChiTietPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\ThongKeTheoNhanVienChiTietPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThietLapHeThongUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThietLapHeThongUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\DoiMatKhauPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\DoiMatKhauPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\PhieuNhapKhoUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\PhieuNhapKhoUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\ChiTietPhieuNhapPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\ChiTietPhieuNhapPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoKhachHangUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoKhachHangUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\MaGiamGiaUPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\MaGiamGiaUPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\SuaGiaSpTheoNhomPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\SuaGiaSpTheoNhomPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\KiemKeTimHoaDonPresentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\KiemKeTimHoaDonPresentation.g.cs
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\TheKhachHang_Presentation.baml
+E:\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\TheKhachHang_Presentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\Presentation.exe.config
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Presentation.exe
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Presentation.pdb
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Presentation.csprojResolveAssemblyReference.cache
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Main.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Style\Button1.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Style\DataGrid.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Style\Image-buton.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Style\Label.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Style\TextBlock.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Style\Textbox.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Style\UserControl.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\BanHangUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\BanHang_KH_UPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\BatDauUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\DangNhapUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\DonViTinhUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\KhachHangUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\KhoUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\KiemKeUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\LichSuBanHangUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\MaGiamGiaUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\NhaCungCapUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\NhanVienUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\NhapHangTraUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\NhapMuaUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\NhomKhachHangUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\NhomSanPhamUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\PhanQuyenUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\PhieuNhapKhoUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\SanPhamUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThietLapHeThongUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThietLapUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThongKeBaoCaoUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoHoaDon.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoKhachHangUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoNhanVienUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoSpUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\TrangChuUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\BanHangSuaChietKhauPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\BanHangSuaHangMuaPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\BanHangThanhToanPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\ChiTietHoaDonPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\ChiTietPhieuNhapPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\DoiMatKhauPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\DonViTinhSuaPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\DonViTinhThemPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\KetnoiPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\KetQuaImportPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\KhachHangSuaPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\KhachHangThemPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\KiemKeSuaPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\KiemKeTimHoaDonPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhaCungCapSuaPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhaCungCapThemPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhanVienSuaPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhanVienThemPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhapHangTraThanhToanPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhapMuaSuaPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhapMua_NhapTuExcelPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhapMua_TimKiemSPPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhomKhachHangSuaPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhomKhachHangThemPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhomSanPhamNhapExcelPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhomSanPhamSuaPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhomSanPhamThemPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\SanPhamNhapExcelPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\SanPhamSuaPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\SanPhamThemPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\SuaGiaSpTheoNhomPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\ThongKeTheoNhanVienChiTietPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\TimKiemSanPhamPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Main.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Test.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\BanHangUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\BanHang_KH_UPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\BatDauUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\DangNhapUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\DonViTinhUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\KhachHangUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\KhoUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\KiemKeUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\LichSuBanHangUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\MaGiamGiaUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\NhaCungCapUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\NhanVienUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\NhapHangTraUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\NhapMuaUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\NhomKhachHangUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\NhomSanPhamUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\PhanQuyenUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\PhieuNhapKhoUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\SanPhamUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThietLapHeThongUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThietLapUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThongKeBaoCaoUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoHoaDon.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoKhachHangUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoNhanVienUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoSpUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\TrangChuUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\BanHangSuaChietKhauPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\BanHangSuaHangMuaPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\BanHangThanhToanPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\ChiTietHoaDonPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\ChiTietPhieuNhapPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\DoiMatKhauPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\DonViTinhSuaPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\DonViTinhThemPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\KetnoiPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\KetQuaImportPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\KhachHangSuaPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\KhachHangThemPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\KiemKeSuaPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\KiemKeTimHoaDonPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhaCungCapSuaPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhaCungCapThemPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhanVienSuaPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhanVienThemPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhapHangTraThanhToanPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhapMuaSuaPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhapMua_NhapTuExcelPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhapMua_TimKiemSPPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhomKhachHangSuaPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhomKhachHangThemPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhomSanPhamNhapExcelPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhomSanPhamSuaPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\NhomSanPhamThemPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\SanPhamNhapExcelPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\SanPhamSuaPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\SanPhamThemPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\SuaGiaSpTheoNhomPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\ThongKeTheoNhanVienChiTietPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\WindowWpf\TimKiemSanPhamPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\App.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Presentation_MarkupCompile.cache
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Presentation_MarkupCompile.lref
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\Presentation.exe
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\Presentation.pdb
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\Business.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\DataAccess.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\Public.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\System.Windows.Interactivity.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\Business.pdb
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\DataAccess.pdb
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\Public.pdb
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\HoaDonBanLe_UPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\KiemKe_Presentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\TheKhachHang_Presentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\ThongKeTheoHoaDon_Presentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\ThongKeTheoNhanVien_Presentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\ThongKeTheoSanPham_Presentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\TaoMaVachUPresentation.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\HoaDonBanLe_UPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\KiemKe_Presentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\TheKhachHang_Presentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\ThongKeTheoHoaDon_Presentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\ThongKeTheoNhanVien_Presentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\ThongKeTheoSanPham_Presentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\Window1.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\UserControls\TaoMaVachUPresentation.g.cs
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Report\Window1.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Test.baml
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Presentation.g.resources
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Presentation.Properties.Resources.resources
+D:\DATN\DATN\PROGRAM\PosSol\Presentation\obj\Debug\Presentation.csproj.GenerateResource.Cache
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\Presentation.exe.config
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Presentation.exe
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Presentation.pdb
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\Presentation.exe
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\Presentation.pdb
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\Business.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\DataAccess.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\Public.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\Business.pdb
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\DataAccess.pdb
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\Public.pdb
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Presentation.csprojResolveAssemblyReference.cache
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Main.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Report\HoaDonBanLe_UPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Report\KiemKe_Presentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Report\TheKhachHang_Presentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Report\ThongKeTheoHoaDon_Presentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Report\ThongKeTheoNhanVien_Presentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Report\ThongKeTheoSanPham_Presentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Style\Button1.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Style\DataGrid.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Style\Image-buton.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Style\Label.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Style\TextBlock.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Style\Textbox.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Style\UserControl.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\BanHangUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\BanHang_KH_UPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\BatDauUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\DangNhapUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\DonViTinhUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\KhachHangUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\KhoUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\KiemKeUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\LichSuBanHangUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\MaGiamGiaUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\NhaCungCapUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\NhanVienUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\NhapHangTraUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\NhapMuaUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\NhomKhachHangUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\NhomSanPhamUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\PhanQuyenUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\PhieuNhapKhoUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\SanPhamUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\TaoMaVachUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\ThietLapHeThongUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\ThietLapUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\ThongKeBaoCaoUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoHoaDon.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoKhachHangUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoNhanVienUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoSpUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\TrangChuUPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\BanHangSuaChietKhauPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\BanHangSuaHangMuaPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\BanHangThanhToanPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\ChiTietHoaDonPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\ChiTietPhieuNhapPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\DoiMatKhauPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\DonViTinhSuaPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\DonViTinhThemPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\KetnoiPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\KetQuaImportPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\KhachHangSuaPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\KhachHangThemPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\KiemKeSuaPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\KiemKeTimHoaDonPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhaCungCapSuaPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhaCungCapThemPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhanVienSuaPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhanVienThemPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhapHangTraThanhToanPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhapMuaSuaPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhapMua_NhapTuExcelPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhapMua_TimKiemSPPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhomKhachHangSuaPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhomKhachHangThemPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhomSanPhamNhapExcelPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhomSanPhamSuaPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhomSanPhamThemPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\SanPhamNhapExcelPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\SanPhamSuaPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\SanPhamThemPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\SuaGiaSpTheoNhomPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\ThongKeTheoNhanVienChiTietPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\TimKiemSanPhamPresentation.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Main.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Report\HoaDonBanLe_UPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Report\KiemKe_Presentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Report\TheKhachHang_Presentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Report\ThongKeTheoHoaDon_Presentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Report\ThongKeTheoNhanVien_Presentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Report\ThongKeTheoSanPham_Presentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Report\Window1.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Test.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\BanHangUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\BanHang_KH_UPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\BatDauUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\DangNhapUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\DonViTinhUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\KhachHangUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\KhoUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\KiemKeUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\LichSuBanHangUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\MaGiamGiaUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\NhaCungCapUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\NhanVienUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\NhapHangTraUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\NhapMuaUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\NhomKhachHangUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\NhomSanPhamUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\PhanQuyenUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\PhieuNhapKhoUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\SanPhamUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\TaoMaVachUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\ThietLapHeThongUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\ThietLapUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\ThongKeBaoCaoUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoHoaDon.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoKhachHangUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoNhanVienUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoSpUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\UserControls\TrangChuUPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\BanHangSuaChietKhauPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\BanHangSuaHangMuaPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\BanHangThanhToanPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\ChiTietHoaDonPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\ChiTietPhieuNhapPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\DoiMatKhauPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\DonViTinhSuaPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\DonViTinhThemPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\KetnoiPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\KetQuaImportPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\KhachHangSuaPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\KhachHangThemPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\KiemKeSuaPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\KiemKeTimHoaDonPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhaCungCapSuaPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhaCungCapThemPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhanVienSuaPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhanVienThemPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhapHangTraThanhToanPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhapMuaSuaPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhapMua_NhapTuExcelPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhapMua_TimKiemSPPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhomKhachHangSuaPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhomKhachHangThemPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhomSanPhamNhapExcelPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhomSanPhamSuaPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\NhomSanPhamThemPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\SanPhamNhapExcelPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\SanPhamSuaPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\SanPhamThemPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\SuaGiaSpTheoNhomPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\ThongKeTheoNhanVienChiTietPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\WindowWpf\TimKiemSanPhamPresentation.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\App.g.cs
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Presentation_MarkupCompile.cache
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Presentation_MarkupCompile.lref
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Report\Window1.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Test.baml
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Presentation.g.resources
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Presentation.Properties.Resources.resources
+C:\Users\mr tung\Desktop\PosSol\PosSol\Presentation\obj\Debug\Presentation.csproj.GenerateResource.Cache
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Presentation.csprojAssemblyReference.cache
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Main.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Style\Button1.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Style\DataGrid.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Style\Image-buton.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Style\Label.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Style\TextBlock.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Style\Textbox.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Style\UserControl.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\BanHangUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\BanHang_KH_UPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\BatDauUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\DangNhapUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\DonViTinhUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\KhachHangUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\KhoUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\KiemKeUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\LichSuBanHangUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\MaGiamGiaUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\NhaCungCapUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\NhanVienUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\NhapHangTraUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\NhapMuaUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\NhomKhachHangUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\NhomSanPhamUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\PhanQuyenUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\PhieuNhapKhoUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\SanPhamUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\ThietLapHeThongUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\ThietLapUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\ThongKeBaoCaoUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoHoaDon.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoKhachHangUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoNhanVienUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoSpUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\TrangChuUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\BanHangSuaChietKhauPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\BanHangSuaHangMuaPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\BanHangThanhToanPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\ChiTietHoaDonPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\ChiTietPhieuNhapPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\DoiMatKhauPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\DonViTinhSuaPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\DonViTinhThemPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\KetnoiPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\KetQuaImportPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\KhachHangSuaPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\KhachHangThemPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\KiemKeSuaPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\KiemKeTimHoaDonPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhaCungCapSuaPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhaCungCapThemPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhanVienSuaPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhanVienThemPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhapHangTraThanhToanPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhapMuaSuaPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhapMua_NhapTuExcelPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhapMua_TimKiemSPPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhomKhachHangSuaPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhomKhachHangThemPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhomSanPhamNhapExcelPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhomSanPhamSuaPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhomSanPhamThemPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\SanPhamNhapExcelPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\SanPhamSuaPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\SanPhamThemPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\SuaGiaSpTheoNhomPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\ThongKeTheoNhanVienChiTietPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\TimKiemSanPhamPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Main.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Test.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\BanHangUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\BanHang_KH_UPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\BatDauUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\DangNhapUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\DonViTinhUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\KhachHangUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\KhoUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\KiemKeUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\LichSuBanHangUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\MaGiamGiaUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\NhaCungCapUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\NhanVienUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\NhapHangTraUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\NhapMuaUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\NhomKhachHangUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\NhomSanPhamUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\PhanQuyenUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\PhieuNhapKhoUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\SanPhamUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\ThietLapHeThongUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\ThietLapUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\ThongKeBaoCaoUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoHoaDon.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoKhachHangUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoNhanVienUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\ThongKeTheoSpUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\TrangChuUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\BanHangSuaChietKhauPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\BanHangSuaHangMuaPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\BanHangThanhToanPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\ChiTietHoaDonPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\ChiTietPhieuNhapPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\DoiMatKhauPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\DonViTinhSuaPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\DonViTinhThemPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\KetnoiPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\KetQuaImportPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\KhachHangSuaPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\KhachHangThemPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\KiemKeSuaPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\KiemKeTimHoaDonPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhaCungCapSuaPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhaCungCapThemPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhanVienSuaPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhanVienThemPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhapHangTraThanhToanPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhapMuaSuaPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhapMua_NhapTuExcelPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhapMua_TimKiemSPPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhomKhachHangSuaPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhomKhachHangThemPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhomSanPhamNhapExcelPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhomSanPhamSuaPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\NhomSanPhamThemPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\SanPhamNhapExcelPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\SanPhamSuaPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\SanPhamThemPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\SuaGiaSpTheoNhomPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\ThongKeTheoNhanVienChiTietPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\WindowWpf\TimKiemSanPhamPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\App.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Presentation_MarkupCompile.cache
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Presentation_MarkupCompile.lref
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Presentation.exe
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Presentation.pdb
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Report\HoaDonBanLe_UPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Report\ThongKeTheoHoaDon_Presentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Report\ThongKeTheoNhanVien_Presentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Report\HoaDonBanLe_UPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Report\ThongKeTheoHoaDon_Presentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Report\ThongKeTheoNhanVien_Presentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Report\KiemKe_Presentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Report\TheKhachHang_Presentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Report\ThongKeTheoSanPham_Presentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\TaoMaVachUPresentation.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Report\KiemKe_Presentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Report\TheKhachHang_Presentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Report\ThongKeTheoSanPham_Presentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Report\Window1.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\UserControls\TaoMaVachUPresentation.g.cs
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\Presentation.exe.config
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\Presentation.exe
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\Presentation.pdb
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\AxShockwaveFlashObjects.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\Business.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\CrystalDecisions.Shared.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\DataAccess.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\log4net.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\Public.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\SAPBusinessObjects.WPF.Viewer.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\SAPBusinessObjects.WPF.ViewerShared.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\Business.pdb
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\DataAccess.pdb
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\Public.pdb
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\log4net.xml
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\cs\CrystalDecisions.CrystalReports.Engine.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\da\CrystalDecisions.CrystalReports.Engine.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\de\CrystalDecisions.CrystalReports.Engine.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\en\CrystalDecisions.CrystalReports.Engine.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\es\CrystalDecisions.CrystalReports.Engine.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\fi\CrystalDecisions.CrystalReports.Engine.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\fr\CrystalDecisions.CrystalReports.Engine.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\hu\CrystalDecisions.CrystalReports.Engine.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\it\CrystalDecisions.CrystalReports.Engine.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\ja\CrystalDecisions.CrystalReports.Engine.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\ko\CrystalDecisions.CrystalReports.Engine.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\nb-NO\CrystalDecisions.CrystalReports.Engine.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\nl\CrystalDecisions.CrystalReports.Engine.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\pl\CrystalDecisions.CrystalReports.Engine.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\pt\CrystalDecisions.CrystalReports.Engine.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\ru\CrystalDecisions.CrystalReports.Engine.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\sk\CrystalDecisions.CrystalReports.Engine.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\sv\CrystalDecisions.CrystalReports.Engine.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\th\CrystalDecisions.CrystalReports.Engine.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\tr\CrystalDecisions.CrystalReports.Engine.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\zh-CHS\CrystalDecisions.CrystalReports.Engine.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\zh-CHT\CrystalDecisions.CrystalReports.Engine.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\cs\CrystalDecisions.ReportSource.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\da\CrystalDecisions.ReportSource.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\de\CrystalDecisions.ReportSource.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\en\CrystalDecisions.ReportSource.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\es\CrystalDecisions.ReportSource.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\fi\CrystalDecisions.ReportSource.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\fr\CrystalDecisions.ReportSource.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\hu\CrystalDecisions.ReportSource.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\it\CrystalDecisions.ReportSource.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\ja\CrystalDecisions.ReportSource.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\ko\CrystalDecisions.ReportSource.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\nb-NO\CrystalDecisions.ReportSource.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\nl\CrystalDecisions.ReportSource.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\pl\CrystalDecisions.ReportSource.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\pt\CrystalDecisions.ReportSource.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\ru\CrystalDecisions.ReportSource.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\sk\CrystalDecisions.ReportSource.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\sv\CrystalDecisions.ReportSource.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\th\CrystalDecisions.ReportSource.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\tr\CrystalDecisions.ReportSource.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\zh-CHS\CrystalDecisions.ReportSource.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\zh-CHT\CrystalDecisions.ReportSource.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\cs\CrystalDecisions.Shared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\da\CrystalDecisions.Shared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\de\CrystalDecisions.Shared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\en\CrystalDecisions.Shared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\es\CrystalDecisions.Shared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\fi\CrystalDecisions.Shared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\fr\CrystalDecisions.Shared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\hu\CrystalDecisions.Shared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\it\CrystalDecisions.Shared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\ja\CrystalDecisions.Shared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\ko\CrystalDecisions.Shared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\nb-NO\CrystalDecisions.Shared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\nl\CrystalDecisions.Shared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\pl\CrystalDecisions.Shared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\pt\CrystalDecisions.Shared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\ru\CrystalDecisions.Shared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\sk\CrystalDecisions.Shared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\sv\CrystalDecisions.Shared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\th\CrystalDecisions.Shared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\tr\CrystalDecisions.Shared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\zh-CHS\CrystalDecisions.Shared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\zh-CHT\CrystalDecisions.Shared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\cs\SAPBusinessObjects.WPF.Viewer.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\da\SAPBusinessObjects.WPF.Viewer.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\de\SAPBusinessObjects.WPF.Viewer.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\en\SAPBusinessObjects.WPF.Viewer.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\es\SAPBusinessObjects.WPF.Viewer.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\fi\SAPBusinessObjects.WPF.Viewer.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\fr\SAPBusinessObjects.WPF.Viewer.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\hu\SAPBusinessObjects.WPF.Viewer.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\it\SAPBusinessObjects.WPF.Viewer.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\ja\SAPBusinessObjects.WPF.Viewer.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\ko\SAPBusinessObjects.WPF.Viewer.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\nb-NO\SAPBusinessObjects.WPF.Viewer.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\nl\SAPBusinessObjects.WPF.Viewer.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\pl\SAPBusinessObjects.WPF.Viewer.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\pt\SAPBusinessObjects.WPF.Viewer.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\ru\SAPBusinessObjects.WPF.Viewer.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\sk\SAPBusinessObjects.WPF.Viewer.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\sv\SAPBusinessObjects.WPF.Viewer.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\th\SAPBusinessObjects.WPF.Viewer.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\tr\SAPBusinessObjects.WPF.Viewer.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\zh-CHS\SAPBusinessObjects.WPF.Viewer.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\zh-CHT\SAPBusinessObjects.WPF.Viewer.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\cs\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\da\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\de\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\en\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\es\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\fi\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\fr\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\hu\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\it\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\ja\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\ko\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\nb-NO\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\nl\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\pl\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\pt\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\ru\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\sk\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\sv\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\th\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\tr\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\zh-CHS\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\zh-CHT\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\de\System.Windows.Interactivity.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\en\System.Windows.Interactivity.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\es\System.Windows.Interactivity.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\it\System.Windows.Interactivity.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Report\Window1.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Test.baml
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Presentation.g.resources
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Presentation.Properties.Resources.resources
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Presentation.csproj.GenerateResource.cache
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Presentation.csproj.CoreCompileInputs.cache
+E:\DATN Ql ban hang\code\PosSol\Presentation\obj\Debug\Presentation.csproj.CopyComplete

@@ -1,0 +1,206 @@
+﻿<UserControl x:Class="Presentation.UserControls.NhanVienUPresentation"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" d:DesignHeight="300" d:DesignWidth="300"
+             Style="{DynamicResource UserControl}" Loaded="ucNhanVien_Loaded">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Style/UserControl.xaml"/>
+                <ResourceDictionary Source="../Style/Textbox.xaml"/>
+                <ResourceDictionary Source="../Style/Button1.xaml"/>
+                <ResourceDictionary Source="../Style/Datagrid.xaml"/>
+                <ResourceDictionary Source="../Style/Label.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <!--NỘI DUNG-->
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                <GradientStop Color="#FFA0B9FB" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <!--Chia dòng-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <!--Tìm kiếm-->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Height="50" Margin="5 0 0 5">
+            <TextBox Name="txtTimKiem" Style="{DynamicResource Textbox1}" FontSize="25" Width="200" PreviewKeyDown="txtTimKiem_PreviewKeyDown"/>
+            <Button Name="btnTimKiem" Click="btnTimKiem_Click" Style="{DynamicResource MetroButtonDarkGreen}" Margin="5 0 0 0" Height="40" Padding="5">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="../Image/Icon/fl-search.png" Stretch="Uniform"/>
+                </StackPanel>
+            </Button>
+            <Label Name="lbWarning"  Content="Warning" Style="{DynamicResource LabelWarning}" VerticalAlignment="Center" FontSize="20"/>
+        </StackPanel>
+
+        <Button Name="btnReset" Click="btnReset_Click" Style="{DynamicResource MetroButtonTeal}" Margin="5 0 0 0" HorizontalAlignment="Right" VerticalAlignment="Center" Height="30" Padding="1">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="../Image/Icon/fl-reset.png" Margin="5"/>
+                <Label Content="(F2)" Foreground="White" VerticalAlignment="Center"/>
+            </StackPanel>
+        </Button>
+
+        <DataGrid Grid.Row="1" x:Name="dgNhanVien"  SelectedItem="{Binding sl, Mode=OneWay}" Style="{DynamicResource Datagrid}" LoadingRow="dgNhomSanPham_LoadingRow" IsReadOnly="True"
+                RowDetailsVisibilityMode="Collapsed" MouseDoubleClick="dgNhanVien_MouseDoubleClick">
+            <!--Columns-->
+            <DataGrid.Columns>
+
+                <!--Mã nhân viên-->
+                <DataGridTextColumn Width="100" Header="Mã" Binding="{Binding MaNV_NV}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+                <!--Tên nhân viên-->
+                <DataGridTextColumn Width="2*" Header="Tên" Binding="{Binding HoTen_NV}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Left"/>
+                            <Setter Property="Margin" Value="2 0 0 0"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+                <!--Giới tính-->
+                <DataGridTextColumn Width="100" Header="Giới tính" Binding="{Binding GioiTinh_NV}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+                <!--Nhóm quyền-->
+                <DataGridTextColumn Width="1*" Header="Nhóm quyền" Binding="{Binding TenQuyen_Q}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+                <!--Địa chỉ-->
+                <DataGridTextColumn Width="2*" Header="Địa chỉ" Binding="{Binding DiaChi_NV}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Left"/>
+                            <Setter Property="Margin" Value="2 0 0 0"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+                <!--Số điện thoại-->
+                <DataGridTextColumn Width="100" Header="SĐT" Binding="{Binding SDT_NV}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+                <DataGridTemplateColumn Width="100" Header="Đang dùng">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox IsHitTestVisible="False" IsChecked="{Binding DangDung_NV}" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Width="50" Header="Sửa">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Name="btnSua" Style="{DynamicResource MetroButtonYellowGreen}" Click="btnSua_Click" Height="30" Padding="2">
+                                <StackPanel>
+                                    <Image  Source="../Image/Icon/fl-edit.png" Stretch="Uniform" Height="20"/>
+                                </StackPanel>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Width="50" Header="Xóa">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Name="btnXoa" Click="btnXoa_Click" Style="{DynamicResource MetroButtonOrange}" Height="30" Padding="2">
+                                <StackPanel>
+                                    <Image Source="../Image/Icon/fl-delete.png" Height="20" Stretch="Uniform" />
+                                </StackPanel>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+
+            <!--ROW-->
+            <DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Grid.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                                <GradientStop Color="#FFA0B9FB" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Grid.Background>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Grid.Column="0" Source="{Binding Path=Anh_NV}" HorizontalAlignment="Left" Loaded="Image_Loaded"/>
+                        <StackPanel Grid.Column="1" Orientation="Vertical">
+                            <StackPanel Orientation="Horizontal" >
+                                <Label Content="Họ tên:" Width="80" VerticalAlignment="Center" />
+                                <TextBlock Text="{Binding HoTen_NV}" Margin="20 0 0 0" VerticalAlignment="Center"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Ngày sinh:" Width="80" VerticalAlignment="Center"/>
+                                <TextBlock  Text="{Binding NgaySinh_NV, StringFormat=dd-MM-yyyy}" Margin="20 0 0 0" VerticalAlignment="Center"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Địa chỉ:" Width="80" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding DiaChi_NV}" Margin="20 0 0 0"  VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>
+        </DataGrid>
+        <!--DataGrid-->
+        
+        <!--BUTTON-->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 0 10 0">
+            <Button Name="btnThemMoi" Click="btnThemMoi_Click" Style="{DynamicResource MetroButtonTomato}" Margin="5 0 0 0" Height="40" Padding="5">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="../Image/Icon/fl-addDocument.png" Stretch="Uniform"/>
+                    <Label Content="Thêm (F3)" Foreground="White" VerticalAlignment="Center" FontWeight="Bold"/>
+                </StackPanel>
+            </Button>
+
+            <Button Name="btnDong" Click="btnDong_Click" Style="{DynamicResource MetroButtonTeal}" Margin="5 0 0 0" Height="40" Padding="5">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="../Image/Icon/fl-cancel.png" Stretch="Uniform"/>
+                    <Label Content="Đóng (Esc)" Foreground="White" VerticalAlignment="Center" FontWeight="Bold"/>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,7 @@
+E:\DATN\PROGRAM\PosSol\DataAccess\bin\Release\DataAccess.dll
+E:\DATN\PROGRAM\PosSol\DataAccess\bin\Release\DataAccess.pdb
+E:\DATN\PROGRAM\PosSol\DataAccess\bin\Release\Public.dll
+E:\DATN\PROGRAM\PosSol\DataAccess\bin\Release\Public.pdb
+E:\DATN\PROGRAM\PosSol\DataAccess\obj\Release\DataAccess.csprojResolveAssemblyReference.cache
+E:\DATN\PROGRAM\PosSol\DataAccess\obj\Release\DataAccess.dll
+E:\DATN\PROGRAM\PosSol\DataAccess\obj\Release\DataAccess.pdb

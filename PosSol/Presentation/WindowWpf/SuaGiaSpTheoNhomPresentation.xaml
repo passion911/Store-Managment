@@ -1,0 +1,63 @@
+﻿<Window x:Class="Presentation.WindowWpf.SuaGiaSpTheoNhomPresentation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Sửa giá bán sản phẩm theo nhóm sản phẩm" Height="220" Width="300" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="/Presentation;component/Image/Icon/fl-suagia.png"
+        Loaded="Window_Loaded">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Style/UserControl.xaml"/>
+                <ResourceDictionary Source="../Style/Textbox.xaml"/>
+                <ResourceDictionary Source="../Style/Button1.xaml"/>
+                <ResourceDictionary Source="../Style/Datagrid.xaml"/>
+                <ResourceDictionary Source="../Style/Label.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Grid>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                <GradientStop Color="#FFA0B9FB" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Label Name="lbTenNhomSanPham" FontSize="30" Content="Nhóm sản phẩm 1" Foreground="Gray" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10 0 0 0" ToolTip="Nhóm sản phẩm"/>
+
+        <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="0 1 0 1">
+            <StackPanel HorizontalAlignment="Center" >
+                <StackPanel Orientation="Horizontal" Margin="10 10 0 0">
+                    <TextBox Name="txtSuaGia" PreviewKeyDown="txtSuaGia_PreviewKeyDown" HorizontalContentAlignment="Right" TextChanged="txtSuaGia_TextChanged" FontSize="20" Style="{DynamicResource Textbox1}" Width="150" HorizontalAlignment="Left"/>
+                    <Label Name="lbvnd" Content=".VNĐ" VerticalAlignment="Center" FontSize="20"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <Button Name="btnSuaGia" Click="btnSuaGia_Click" Style="{DynamicResource MetroButtonYellowGreen}" Margin="5 0 0 0" Height="40" Padding="5">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="../Image/Icon/fl-suagia.png" Stretch="Uniform"/>
+                    <Label Content="Sửa giá" ToolTip="Sửa giá theo nhóm sản phẩm" Foreground="White" VerticalAlignment="Center" FontWeight="Bold"/>
+                </StackPanel>
+            </Button>
+
+            <Button Name="btnHuy" Click="btnHuy_Click" Style="{DynamicResource MetroButtonYellowGreen}" Margin="5 0 0 0" Height="40" Padding="5" >
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="../Image/Icon/fl-cancel.png" Stretch="Uniform"/>
+                    <Label Content="hủy" ToolTip="Sửa giá theo nhóm sản phẩm" Foreground="White" VerticalAlignment="Center" FontWeight="Bold"/>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+
+        <Label Name="lbWarning" Visibility="Hidden" Style="{DynamicResource LabelWarning}" Grid.Row="2" FontSize="15" Content="warning" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>

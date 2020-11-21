@@ -1,0 +1,9 @@
+E:\DATN\PROGRAM\PosSol\Business\bin\Release\Business.dll
+E:\DATN\PROGRAM\PosSol\Business\bin\Release\Business.pdb
+E:\DATN\PROGRAM\PosSol\Business\bin\Release\DataAccess.dll
+E:\DATN\PROGRAM\PosSol\Business\bin\Release\Public.dll
+E:\DATN\PROGRAM\PosSol\Business\bin\Release\DataAccess.pdb
+E:\DATN\PROGRAM\PosSol\Business\bin\Release\Public.pdb
+E:\DATN\PROGRAM\PosSol\Business\obj\Release\Business.csprojResolveAssemblyReference.cache
+E:\DATN\PROGRAM\PosSol\Business\obj\Release\Business.dll
+E:\DATN\PROGRAM\PosSol\Business\obj\Release\Business.pdb

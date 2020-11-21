@@ -1,0 +1,96 @@
+﻿<UserControl x:Class="Presentation.UserControls.ThietLapHeThongUPresentation"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" d:DesignHeight="300" d:DesignWidth="300" Style="{DynamicResource UserControl}" Loaded="UserControl_Loaded">
+    <!--Style-->
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Style/DataGrid.xaml"/>
+                <ResourceDictionary Source="../Style/Label.xaml"/>
+                <ResourceDictionary Source="../Style/Textbox.xaml"/>
+                <ResourceDictionary Source="../Style/Button1.xaml"/>
+                <ResourceDictionary Source="../Style/UserControl.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                <GradientStop Color="#FFA0B9FB" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <ScrollViewer>
+            <StackPanel VerticalAlignment="Stretch">
+                <StackPanel Orientation="Horizontal" Margin="20 30 0 0">
+                    <Label Content="Tên cửa hàng" Style="{DynamicResource lbControlLeft}" FontSize="20" Width="200"/>
+                    <TextBox Name="txtTenCuaHang" Style="{DynamicResource Textbox1}" FontSize="25" Width="600" Margin="10 0 0 0" ToolTip="Tên hiển thị tại hóa đơn bán hàng và một số tài liệu thống kế"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="20 10 0 0">
+                    <Label Content="Địa chỉ" Style="{DynamicResource lbControlLeft}" FontSize="20" Width="200"/>
+                    <TextBox Name="txtDiaChi" Style="{DynamicResource Textbox1}" FontSize="25" Width="600" Margin="10 0 0 0" ToolTip="Địa chỉ hiển thị tại hóa đơn bán hàng."/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="20 10 0 0">
+                    <Label Content="Số điện thoại" Style="{DynamicResource lbControlLeft}" FontSize="20" Width="200"/>
+                    <TextBox Name="txtSDT" Style="{DynamicResource Textbox1}" FontSize="25" Width="600" Margin="10 0 0 0" ToolTip="Điện thoại liên hệ của cửa hàng."/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="20 10 0 0">
+                    <Label Content="Mức quy đổi điểm" Style="{DynamicResource lbControlLeft}" FontSize="20" Width="200"/>
+                    <TextBox Name="txtMucQuyDoi" Style="{DynamicResource Textbox1}" FontSize="25" Width="300" Margin="10 0 0 0" ToolTip="Đồng / 1 Điểm"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="20 10 0 0" Name="stHanDung">
+                    <Label Content="Hạn dùng" Style="{DynamicResource lbControlLeft}" FontSize="20" Width="200"/>
+                    <DatePicker Name="dateDenNgay" VerticalAlignment="Center" FontSize="20" Margin="10 0 0 0" Foreground="Green" Width="200" DisplayDateEnd="1/1/2099" DisplayDateStart="1/1/2010"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="20 10 0 0">
+                    <Label Content="Voucher" Style="{DynamicResource lbControlLeft}" FontSize="20" Width="200"/>
+                    <ToggleButton Name="btnVoucher" Style="{DynamicResource ToggleSwitchStyle}" Height="40" Width="80" HorizontalAlignment="Left" Margin="10 0 0 0" ToolTip="Tắt bật tính năng sử dụng Voucher khi thanh toán."/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="20 10 0 0">
+                    <Label Content="Mã giảm giá" Style="{DynamicResource lbControlLeft}" FontSize="20" Width="200"/>
+                    <ToggleButton Name="btnMaGiaGia" Style="{DynamicResource ToggleSwitchStyle}" Height="40" Width="80" HorizontalAlignment="Left" Margin="10 0 0 0"  ToolTip="Bật/tắt tính năng sử dụng mã giảm giá khi thanh toán."/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="20 10 0 0">
+                    <Label Content="Chiết khấu hóa đơn" Style="{DynamicResource lbControlLeft}" FontSize="20" Width="200"/>
+                    <ToggleButton Name="btnCkHoaDon" Style="{DynamicResource ToggleSwitchStyle}" Height="40" Width="80" HorizontalAlignment="Left" Margin="10 0 0 0"  ToolTip="Bật/tắt tính năng chiết khấu hóa đơn khi thanh toán."/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="20 10 0 0">
+                    <Label Content="Chiết khấu sản phẩm" Style="{DynamicResource lbControlLeft}" FontSize="20" Width="200"/>
+                    <ToggleButton Name="btnCkSanPham" Style="{DynamicResource ToggleSwitchStyle}" Height="40" Width="80" HorizontalAlignment="Left" Margin="10 0 0 0"  ToolTip="Bật/tắt tính năng chiết khấu sản phẩm khi thanh toán."/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="20 10 0 0">
+                    <Label Content="Kiểm tra giá nhập" Style="{DynamicResource lbControlLeft}" FontSize="20" Width="200"/>
+                    <ToggleButton Name="btnKiemTraGiaNhap" Style="{DynamicResource ToggleSwitchStyle}" Height="40" Width="80" HorizontalAlignment="Left" Margin="10 0 0 0"  ToolTip="Bật/tắt tính năng chiết khấu sản phẩm khi thanh toán."/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="20 10 0 0" Visibility="Collapsed">
+                    <Label Content="Tích điểm KH" Style="{DynamicResource lbControlLeft}" FontSize="25" Width="200"/>
+                    <ToggleButton Name="btnTichDiem" Style="{DynamicResource ToggleSwitchStyle}" Height="40" Width="80" HorizontalAlignment="Left" Margin="10 0 0 0" ToolTip="Bật/Tắt tính năng ccoong điểm tích lũy cho khách hàng."/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom">
+                    <Button Name="btnLuu" Click="btnLuu_Click" Style="{DynamicResource MetroButtonTeal}" Width="100" Height="50" HorizontalAlignment="Left" Margin="230 30 0 0" Content="Lưu(F1)" Foreground="White" FontSize="25"/>
+                </StackPanel>
+                <Label Name="lbWarning" Style="{DynamicResource LabelWarning}" FontSize="20" Margin="10 0 0 0" Visibility="Hidden"/>
+            </StackPanel>
+
+        </ScrollViewer>
+
+        <Border Grid.Row="1" Name="bdProgress" Visibility="Hidden" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="#FF5788F1" BorderThickness="2" CornerRadius="0" Background="#E6FBFAFA">
+            <StackPanel x:Name="spProgress" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5">
+                <Label x:Name="lbProgress" Content="Đang xử lý..."  FontWeight="Bold" Foreground="#FF5788F1"/>
+                <ProgressBar x:Name="pbTienTrinh" Width="200" IsIndeterminate="True" Height="20" Foreground="#FF5788F1"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

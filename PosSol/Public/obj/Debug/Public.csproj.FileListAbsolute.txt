@@ -1,0 +1,15 @@
+E:\DATN\PROGRAM\PosSol\Public\bin\Debug\Public.dll
+E:\DATN\PROGRAM\PosSol\Public\bin\Debug\Public.pdb
+E:\DATN\PROGRAM\PosSol\Public\obj\Debug\Public.dll
+E:\DATN\PROGRAM\PosSol\Public\obj\Debug\Public.pdb
+E:\DATN\PROGRAM\PosSol\Public\obj\Debug\Public.csprojResolveAssemblyReference.cache
+D:\DATN\DATN\PROGRAM\PosSol\Public\bin\Debug\Public.dll
+D:\DATN\DATN\PROGRAM\PosSol\Public\bin\Debug\Public.pdb
+D:\DATN\DATN\PROGRAM\PosSol\Public\obj\Debug\Public.csprojResolveAssemblyReference.cache
+D:\DATN\DATN\PROGRAM\PosSol\Public\obj\Debug\Public.dll
+D:\DATN\DATN\PROGRAM\PosSol\Public\obj\Debug\Public.pdb
+E:\DATN Ql ban hang\code\PosSol\Public\bin\Debug\Public.dll
+E:\DATN Ql ban hang\code\PosSol\Public\bin\Debug\Public.pdb
+E:\DATN Ql ban hang\code\PosSol\Public\obj\Debug\Public.csproj.CoreCompileInputs.cache
+E:\DATN Ql ban hang\code\PosSol\Public\obj\Debug\Public.dll
+E:\DATN Ql ban hang\code\PosSol\Public\obj\Debug\Public.pdb

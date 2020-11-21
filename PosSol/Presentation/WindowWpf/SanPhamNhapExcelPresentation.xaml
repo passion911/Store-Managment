@@ -1,0 +1,38 @@
+﻿<Window x:Class="Presentation.WindowWpf.SanPhamNhapExcelPresentation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Thêm sản phẩm từ Excel" 
+        Height="170" Width="368"
+        ResizeMode="NoResize" FontSize="16" WindowStartupLocation="CenterScreen" Icon="/Presentation;component/Image/Icon/fl-excel.png" >
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Style/Button1.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                <GradientStop Color="#FFA0B9FB" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Content="Chọn file Excel" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0" FontStyle="Italic" Foreground="Gray"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <TextBox Name="txtDuongDan" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0" Width="300" IsEnabled="False"/>
+            <Button Name="btnChonDuongDan" Click="btnChonDuongDan_Click" Style="{DynamicResource MetroButtonTeal}" Content="..." Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0" Width="30" Height="22"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Row="2">
+            <Button Content="Xem file mẫu" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,120,0" Foreground="Blue" FontStyle="Italic" Background="Transparent" BorderBrush="Transparent"/>
+            <Button Name="btnOK" Style="{DynamicResource MetroButtonYellowGreen}" Foreground="White"  Click="btnOK_Click" Content="OK" Width="50" Height="30" HorizontalAlignment="Left" VerticalAlignment="Center"  Margin="10,0,0,0"/>
+            <Button Name="btnHuy"  Click="btnHuy_Click" Style="{DynamicResource MetroButtonYellowGreen}" Foreground="White"  Content="Hủy" Width="50" Height="30" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,10,0" />
+        </StackPanel>
+    </Grid>
+</Window>

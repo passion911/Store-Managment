@@ -1,0 +1,53 @@
+﻿<UserControl x:Class="Presentation.UserControls.BanHang_KH_UPresentation"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d"  d:DesignHeight="300" d:DesignWidth="300" HorizontalAlignment="Stretch"
+             VerticalAlignment="Stretch"  Loaded="UserControl_Loaded">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Style/Button1.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="23*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Stretch">
+            <Button VerticalAlignment="Center" Style="{DynamicResource MetroButtonMaroon}" Click="Button_Click" Width="40" Margin="0 0 10 0" >
+                <StackPanel>
+                    <Image Source="../Image/Icon/fl-delete.png" Stretch="Uniform" Margin="2 2 2 2"/>
+                </StackPanel>
+            </Button>
+            
+            <Image Name="picNKH" Stretch="None"/>
+            <TextBlock Name="txtbTen" Text="Nguyễn Văn Tùng" FontSize="20" FontWeight="Bold" Foreground="White" VerticalAlignment="Center" Margin="10,0,0,0"/>
+        </StackPanel>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Label Grid.Column="0" Grid.Row="0" Content="Điểm tích lũy" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0" FontWeight="Bold" Foreground="White"/>
+            <TextBlock Grid.Column="1" Grid.Row="0" Name="txtDiemTichLuy" Text="100" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5 0 0 0" Foreground="White" FontSize="25" FontWeight="Bold"/>
+            <Label Grid.Column="0" Grid.Row="1" Content="Số lần mua hàng" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0" FontWeight="Bold" Foreground="White"/>
+            <TextBlock Name="txtbSoLanMuaHang" Grid.Column="1" Grid.Row="1" Text="10" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0" FontSize="25" FontWeight="Bold" Foreground="White"/>
+            <Label Grid.Column="0" Grid.Row="2" Content="Lần mua gần nhất" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0" FontWeight="Bold" Foreground="White"/>
+            <TextBlock Name="txtbLanMuaGanNhat" Text="29/12/2014" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0" FontSize="20" FontWeight="Bold" Foreground="White"/>
+        </Grid>
+        <TextBlock Grid.Row="2" Name="txtbGhiChu" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="White" Text="Áo Size M" Margin="10 0 0 0" FontSize="13"/>
+        <TextBlock Grid.Row="3" Name="txtbThongBao" TextWrapping="Wrap" Text="Còn 14 ngày nữa là sinh nhật." HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5 0 0 0" Foreground="White" FontSize="16"/>
+    </Grid>
+</UserControl>

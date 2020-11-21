@@ -1,0 +1,4 @@
+E:\DATN\PROGRAM\PosSol\Public\bin\Release\Public.dll
+E:\DATN\PROGRAM\PosSol\Public\bin\Release\Public.pdb
+E:\DATN\PROGRAM\PosSol\Public\obj\Release\Public.dll
+E:\DATN\PROGRAM\PosSol\Public\obj\Release\Public.pdb

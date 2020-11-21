@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TaoMaVach_ds" targetNamespace="http://tempuri.org/TaoMaVach_ds.xsd" xmlns:mstns="http://tempuri.org/TaoMaVach_ds.xsd" xmlns="http://tempuri.org/TaoMaVach_ds.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TaoMaVach_ds" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="TaoMaVach_ds" msprop:Generator_UserDSName="TaoMaVach_ds">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tbl_SANPHAM" msprop:Generator_TableClassName="tbl_SANPHAMDataTable" msprop:Generator_TableVarName="tabletbl_SANPHAM" msprop:Generator_RowChangedName="tbl_SANPHAMRowChanged" msprop:Generator_TablePropName="tbl_SANPHAM" msprop:Generator_RowDeletingName="tbl_SANPHAMRowDeleting" msprop:Generator_RowChangingName="tbl_SANPHAMRowChanging" msprop:Generator_RowEvHandlerName="tbl_SANPHAMRowChangeEventHandler" msprop:Generator_RowDeletedName="tbl_SANPHAMRowDeleted" msprop:Generator_RowClassName="tbl_SANPHAMRow" msprop:Generator_UserTableName="tbl_SANPHAM" msprop:Generator_RowEvArgName="tbl_SANPHAMRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaSP_SP" msprop:Generator_ColumnVarNameInTable="columnMaSP_SP" msprop:Generator_ColumnPropNameInRow="MaSP_SP" msprop:Generator_ColumnPropNameInTable="MaSP_SPColumn" msprop:Generator_UserColumnName="MaSP_SP" type="xs:string" minOccurs="0" />
+              <xs:element name="TenSP_SP" msprop:Generator_ColumnVarNameInTable="columnTenSP_SP" msprop:Generator_ColumnPropNameInRow="TenSP_SP" msprop:Generator_ColumnPropNameInTable="TenSP_SPColumn" msprop:Generator_UserColumnName="TenSP_SP" type="xs:string" minOccurs="0" />
+              <xs:element name="GiaBanLe_SP" msprop:Generator_ColumnVarNameInTable="columnGiaBanLe_SP" msprop:Generator_ColumnPropNameInRow="GiaBanLe_SP" msprop:Generator_ColumnPropNameInTable="GiaBanLe_SPColumn" msprop:Generator_UserColumnName="GiaBanLe_SP" type="xs:string" minOccurs="0" />
+              <xs:element name="TenShop" msprop:Generator_ColumnVarNameInTable="columnTenShop" msprop:Generator_ColumnPropNameInRow="TenShop" msprop:Generator_ColumnPropNameInTable="TenShopColumn" msprop:Generator_UserColumnName="TenShop" type="xs:string" minOccurs="0" />
+              <xs:element name="Barcode" msprop:Generator_ColumnVarNameInTable="columnBarcode" msprop:Generator_ColumnPropNameInRow="Barcode" msprop:Generator_ColumnPropNameInTable="BarcodeColumn" msprop:Generator_UserColumnName="Barcode" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

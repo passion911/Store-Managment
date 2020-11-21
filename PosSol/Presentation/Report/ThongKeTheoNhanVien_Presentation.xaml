@@ -1,0 +1,15 @@
+﻿<Window x:Class="Presentation.Report.ThongKeTheoNhanVien_Presentation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:my="clr-namespace:SAPBusinessObjects.WPF.Viewer;assembly=SAPBusinessObjects.WPF.Viewer"
+        Title="Doanh thu theo nhân viên" Height="600" Width="900" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" Icon="/Presentation;component/Image/Icon/fl-printer.png" >
+    <Grid>
+        <Border Name="bdProgress" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="#FF5788F1" BorderThickness="2" CornerRadius="0" Background="#E6FBFAFA">
+            <StackPanel x:Name="spProgress" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5">
+                <Label x:Name="lbProgress" Content="Hệ thống đang nạp dữ liệu. Vui lòng đợi trong giây lát..." FontStyle="Italic" FontSize="10" FontWeight="Bold" Foreground="#FF5788F1"/>
+                <ProgressBar x:Name="pbTienTrinh" Width="280" IsIndeterminate="True" Height="20" Foreground="#FF5788F1"/>
+            </StackPanel>
+        </Border>
+
+    </Grid>
+</Window>

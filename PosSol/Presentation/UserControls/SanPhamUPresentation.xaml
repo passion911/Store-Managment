@@ -1,0 +1,243 @@
+﻿<UserControl x:Class="Presentation.UserControls.SanPhamUPresentation"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" d:DesignHeight="300" d:DesignWidth="300" Style="{DynamicResource UserControl}" Loaded="UserControl_Loaded">
+    
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Style/UserControl.xaml"/>
+                <ResourceDictionary Source="../Style/Textbox.xaml"/>
+                <ResourceDictionary Source="../Style/Button1.xaml"/>
+                <ResourceDictionary Source="../Style/Datagrid.xaml"/>
+                <ResourceDictionary Source="../Style/Label.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    
+    <Grid>
+        
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                <GradientStop Color="#FFA0B9FB" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        
+        <!--Chia dòng-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition />
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        
+        <!--Phần tìm kiếm-->
+            <StackPanel Orientation="Horizontal"  VerticalAlignment="Center" Margin="10 0 0 0">
+            <ComboBox Name="cboNhomSanPham" SelectionChanged="cboNhomSanPham_SelectionChanged" SelectedValuePath="MaNSP_NSP" DisplayMemberPath="TenNSP_NSP" FontSize="20" Width="200" Margin="0 0 30 0" VerticalAlignment="Center" ToolTip="Nhóm sản phẩm"/>
+                <TextBox Name="txtTimKiemMaHoacTen" Style="{DynamicResource Textbox1}" Width="200" FontSize="18" ToolTip="Nhập tên hoặc nhóm sản phẩm để tìm kiếm"/>
+                <Button Name="btnTimKiem" Click="btnTimKiem_Click" Style="{DynamicResource MetroButtonDarkGreen}" Margin="5 0 0 0" Height="30" Padding="5">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="../Image/Icon/fl-search.png" Stretch="Uniform"/>
+                    </StackPanel>
+                </Button>
+                <Label Visibility="Collapsed" Name="lbWarning" Style="{DynamicResource LabelWarning}" Content="Warning!" FontSize="15"/>
+            </StackPanel>
+        
+        <Button Name="btnReset" Click="btnReset_Click" Style="{DynamicResource MetroButtonTeal}" Margin="5 0 0 0" HorizontalAlignment="Right" VerticalAlignment="Center" Height="30" Padding="1">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="../Image/Icon/fl-reset.png" Margin="5"/>
+            </StackPanel>
+        </Button>
+
+        <!--Phần nội dung-->
+        <DataGrid Grid.Row="1" x:Name="dgSanPham" SelectionMode="Single" SelectedItem="{Binding sl, Mode=OneWay}" Style="{DynamicResource Datagrid}"
+            IsReadOnly="True" MouseDoubleClick="dgKhachHang_MouseDoubleClick" LoadingRow="dgSanPham_LoadingRow" RowDetailsVisibilityMode="Collapsed" >
+            <!--Columns-->
+            <DataGrid.Columns>
+
+                <!--Tên sản phẩm-->
+                <DataGridTextColumn Width="2*" Header="Tên sản phẩm" Binding="{Binding TenSP_SP}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Left"/>
+                            <Setter Property="Margin" Value="5 0 0 0"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+                <!--Mã sản phẩm-->
+                <DataGridTextColumn Width="100" Header="Mã sản phẩm" Binding="{Binding MaSP_SP}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+                <!--Giá nhập-->
+                <DataGridTextColumn Width="1*" Header="Giá nhập" Binding="{Binding GiaNhap_SP}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center"/>
+                            <Setter Property="FontWeight" Value="Bold"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+                <!--Giá bán lẻ-->
+                <DataGridTextColumn Width="1*" Header="Giá bán lẻ" Binding="{Binding GiaBanLe_SP}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                            <Setter Property="FontWeight" Value="Bold"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+                <!--Giá bán sỉ-->
+                <DataGridTextColumn Width="1*" Header="Giá bán sỉ" Binding="{Binding GiaBanSi_SP}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                            <Setter Property="FontWeight" Value="Bold"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+                <!--Nhóm sản phẩm-->
+                <DataGridTextColumn Width="1*" Header="Nhóm" Binding="{Binding TenNSP_NSP}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Left"/>
+                            <Setter Property="Margin" Value="5 0 0 0"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+                <!--Sửa-->
+                <DataGridTemplateColumn Width="50" Header="Sửa">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Name="btnSua" Style="{DynamicResource MetroButtonYellowGreen}" Click="btnSua_Click" Height="30" Padding="2">
+                                <StackPanel>
+                                    <Image  Source="../Image/Icon/fl-edit.png" Stretch="Uniform" Height="20"/>
+                                </StackPanel>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <!--Xóa-->
+                <DataGridTemplateColumn Width="50" Header="Xóa">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Name="btnXoa" Click="btnXoa_Click" Style="{DynamicResource MetroButtonOrange}" Height="30" Padding="2">
+                                <StackPanel>
+                                    <Image Source="../Image/Icon/fl-delete.png" Height="20" Stretch="Uniform" />
+                                </StackPanel>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+            </DataGrid.Columns>
+
+            <!--ROW-->
+            <DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                                <GradientStop Color="#FFA0B9FB" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Grid.Background>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="4*"/>
+                            <ColumnDefinition Width="6*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!--Tên nhóm khách hàng cột 0 -->
+                        <Image Grid.Column="0" Source="{Binding Anh_SP}" HorizontalAlignment="Right" Width="128" Stretch="Uniform" VerticalAlignment="Center" Margin="5"/>
+
+                        <!--Column 1-->
+                        <StackPanel Grid.Column="1" Orientation="Vertical" Margin="5">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding TenSP_SP}" Margin="10,0,0,0" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="Green"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Số lượng: " Style="{DynamicResource lbControlLeft}" Width="auto" FontWeight="Normal"/>
+                                <TextBlock Text="{Binding SoLuong_SP}" Margin="5 0 5 0"/>
+                                <TextBlock Text="{Binding TenDVT_DVT}"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Chiết khấu:" Style="{DynamicResource lbControlLeft}" Width="auto" FontWeight="Normal"/>
+                                <TextBlock Text="{Binding CKPhanTram_SP}" Margin="5 0 5 0"/>
+                                <TextBlock Text="%"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Nhà cung cấp:" Style="{DynamicResource lbControlLeft}" Width="auto" FontWeight="Normal"/>
+                                <TextBlock Text="{Binding TenNCC_NCC}" Margin="5 0 0 0"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Ghi chú:" Style="{DynamicResource lbControlLeft}" Width="auto" FontWeight="Normal"/>
+                                <TextBlock Text="{Binding GhiChu_SP}"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>
+        </DataGrid>
+
+        <!--Phần nút chức năng-->
+        <Grid Grid.Row="2">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 0 10 0">
+
+                <Button Name="btnSuaGia" Click="btnSuaGia_Click" Style="{DynamicResource MetroButtonTeal}" Margin="5 0 0 0" Height="40" Padding="5">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="../Image/Icon/fl-suagia.png" Stretch="Uniform"/>
+                        <Label Content="Sửa giá" ToolTip="Sửa giá theo nhóm sản phẩm" Foreground="White" VerticalAlignment="Center" FontWeight="Bold"/>
+                    </StackPanel>
+                </Button>
+
+                <Button Name="btnXuatExcel" Click="btnXuatExcel_Click" Style="{DynamicResource MetroButtonTeal}" Margin="5 0 0 0" Height="40" Padding="5">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="../Image/Icon/fl-excel.png" Stretch="Uniform"/>
+                        <Label Content="Xuất Excel" Foreground="White" VerticalAlignment="Center" FontWeight="Bold"/>
+                    </StackPanel>
+                </Button>
+
+                <Button Name="btnNhapExcel"  Click="btnNhapExcel_Click" Style="{DynamicResource MetroButtonTeal}" Margin="5 0 0 0" Height="40" Padding="5">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="../Image/Icon/fl-Import.png" Stretch="Uniform"/>
+                        <Label Content="Nhập từ Excel" Foreground="White" VerticalAlignment="Center" FontWeight="Bold"/>
+                    </StackPanel>
+                </Button>
+
+                <Button Name="btnThem" Click="btnThem_Click" Style="{DynamicResource MetroButtonTeal}" Margin="5 0 0 0" Height="40" Padding="5">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="../Image/Icon/fl-addDocument.png" Stretch="Uniform"/>
+                        <Label Content="Thêm" Foreground="White" VerticalAlignment="Center" FontWeight="Bold"/>
+                    </StackPanel>
+                </Button>
+
+            </StackPanel>
+        </Grid>
+
+        <Border Grid.Row="1" Name="bdProgress" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="#FF5788F1" BorderThickness="2" CornerRadius="0" Background="#E6FBFAFA">
+            <StackPanel x:Name="spProgress" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5">
+                <Label x:Name="lbProgress" Content="Đang xử lý..." FontWeight="Bold" Foreground="#FF5788F1"/>
+                <ProgressBar x:Name="pbTienTrinh" Width="200" IsIndeterminate="True" Height="20" Foreground="#FF5788F1"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

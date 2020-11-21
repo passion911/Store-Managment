@@ -1,0 +1,154 @@
+﻿<UserControl x:Class="Presentation.UserControls.TaoMaVachUPresentation"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Style="{DynamicResource UserControl}" d:DesignHeight="300" d:DesignWidth="300"
+             xmlns:my="clr-namespace:SAPBusinessObjects.WPF.Viewer;assembly=SAPBusinessObjects.WPF.Viewer" 
+             Loaded="UserControl_Loaded">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Style/UserControl.xaml"/>
+                <ResourceDictionary Source="../Style/Textbox.xaml"/>
+                <ResourceDictionary Source="../Style/Button1.xaml"/>
+                <ResourceDictionary Source="../Style/Datagrid.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                <GradientStop Color="#FFA0B9FB" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="500"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <!--Control-->
+        <StackPanel Grid.Column="0">
+            <Label Content="Nhập mã sản phẩm (F1)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20 20 0 0" Foreground="Gray" FontStyle="Italic" Padding="2 0 0 5"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBox Name="txtMaSP" Style="{DynamicResource Textbox1}" KeyDown="txtMaSP_KeyDown" TextChanged="txtMaSP_TextChanged" HorizontalAlignment="Left" VerticalAlignment="Center" Width="200" Margin="20 0 0 0" FontSize="25"/>
+                <Button Name="btnThemSP" Click="btnThemSP_Click" Style="{DynamicResource MetroButtonMaroon}" Margin="5 0 0 0" Height="40" Padding="5">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="../Image/Icon/fl-addDocument.png" Stretch="Uniform"/>
+                        <Label Content="Thêm" Foreground="White" VerticalAlignment="Center" FontWeight="Bold"/>
+                    </StackPanel>
+                </Button>
+                <Button Name="btnTimKiem" Style="{DynamicResource MetroButtonDarkGreen}" Margin="5 0 0 0" Height="40" Padding="5">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="../Image/Icon/fl-search.png" Stretch="Uniform"/>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+            <TextBlock Name="txtbWarning" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,5,0,0" Foreground="red" FontStyle="Italic" Height="auto" Width="200"/>
+            <Label Content="Danh sách sản phẩm tạo mã" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10 10 0 0" Foreground="Gray" FontStyle="Italic" Padding="2 0 0 5"/>
+            <DataGrid x:Name="dgDsSanPham" Style="{DynamicResource Datagrid}"
+                       Margin="10 2 10 0" MaxHeight="400" MinHeight="200">
+                <DataGrid.Columns>
+                    <!--Mã sản phẩm-->
+                    <DataGridTextColumn Width="80" Header="Mã" Binding="{Binding MaSP_SP}">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="HorizontalAlignment" Value="Center"/>
+                                <Setter Property="VerticalAlignment" Value="Center"/>
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+
+                    <!--Tên sản phẩm-->
+                    <DataGridTextColumn Width="3*" Header="Tên sản phẩm" Binding="{Binding TenSP_SP}">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="HorizontalAlignment" Value="Left"/>
+                                <Setter Property="Margin" Value="5 0 0 0"/>
+                                <Setter Property="ToolTip" Value="{Binding TenSP_SP}"/>
+                                <Setter Property="VerticalAlignment" Value="Center"/>
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+
+                    <!--Giá bán lẻ-->
+                    <DataGridTextColumn Width="1*" Header="Giá bán lẻ" Binding="{Binding GiaBanLe_SP}">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="HorizontalAlignment" Value="Center"/>
+                                <Setter Property="VerticalAlignment" Value="Center"/>
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+
+                    <!--Số lượng-->
+                    <DataGridTextColumn IsReadOnly="False" Width="50" Header="SL" Binding="{Binding SoLuong_SP}">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="HorizontalAlignment" Value="Center"/>
+                                <Setter Property="VerticalAlignment" Value="Center"/>
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+
+                    <!--Xóa-->
+                    <DataGridTemplateColumn Width="50" Header="Hủy">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Name="btnXoa" Style="{DynamicResource ImageButton}" Click="btnXoa_Click">
+                                    <StackPanel>
+                                        <Image Source="../Image/delete-icon16.png" Stretch="None"/>
+                                    </StackPanel>
+                                </Button>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <Grid Margin="0 10 0 0" Visibility="Collapsed" Name="gdSP">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Center" Orientation="Horizontal">
+                    <Label Width="30"  Content="Mã:" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalAlignment="Center"  Margin="0 0 3 0" FontSize="10" />
+                    <Label Name="lbMa" HorizontalAlignment="Left" Width="180" VerticalAlignment="Center"  FontSize="14" Foreground="red" FontWeight="Bold"/>
+                </StackPanel>
+                <StackPanel Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Orientation="Horizontal">
+                    <Label Width="30"  Content="Tên:" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalAlignment="Top"  Margin="0 0 3 0" FontSize="10"/>
+                    <TextBlock Name="txtbTen" HorizontalAlignment="Left" TextWrapping="Wrap" Width="200" Height="50" VerticalAlignment="Top"  FontSize="14" Foreground="Green" FontWeight="Bold"/>
+                </StackPanel>
+                <StackPanel Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Center" Orientation="Horizontal">
+                    <Label Width="30"  Content="Giá:" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalAlignment="Center"  Margin="0 0 3 0" FontSize="10" />
+                    <Label Name="lbGia" HorizontalAlignment="Left" Width="100" HorizontalContentAlignment="Right" VerticalAlignment="Center"  FontSize="14" Foreground="red" FontWeight="Bold"/>
+                    <Label Content=".VNĐ"/>
+                </StackPanel>
+                <StackPanel Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Orientation="Horizontal">
+                    <Label Content="Số lượng tạo" HorizontalAlignment="Left" Margin="10 0 0 0"  FontSize="12"/>
+                    <TextBox Name="txtSoLuongTao" Text="1" HorizontalAlignment="Left" VerticalAlignment="Center" Width="50"  Margin="10 0 0 0"/>
+                    <Label Content="Cái" Margin="5 0 0 0"/>
+                </StackPanel>
+            </Grid>
+            <Button Name="btnTaoMa" Click="btnTaoMa_Click" Style="{DynamicResource MetroButtonMaroon}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10 10 0 0" Height="60" Padding="5 5 20 5">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="../Image/Icon/fl-paint.png" Stretch="Uniform"/>
+                    <Label Content="Tạo mã (F2)" Foreground="White" VerticalAlignment="Center" FontWeight="Bold" />
+                </StackPanel>
+            </Button>
+
+        </StackPanel>
+
+        <!--In-->
+        <Border Grid.Column="1" Name="bdProgress" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="#FF5788F1" BorderThickness="2" CornerRadius="0" Background="#E6FBFAFA">
+            <StackPanel x:Name="spProgress" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5">
+                <Label x:Name="lbProgress" Padding="0" Content="Hệ thống đang xử lý. Vui lòng chờ trong giây lát..."  FontWeight="Normal" Foreground="#FF5788F1"/>
+                <ProgressBar x:Name="pbTienTrinh" Width="300" IsIndeterminate="True" Height="20" Foreground="#FF5788F1"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

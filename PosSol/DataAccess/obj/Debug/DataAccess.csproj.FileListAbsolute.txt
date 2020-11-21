@@ -1,0 +1,30 @@
+E:\DATN\PROGRAM\PosSol\DataAccess\bin\Debug\DataAccess.dll
+E:\DATN\PROGRAM\PosSol\DataAccess\bin\Debug\DataAccess.pdb
+E:\DATN\PROGRAM\PosSol\DataAccess\bin\Debug\Public.dll
+E:\DATN\PROGRAM\PosSol\DataAccess\bin\Debug\Public.pdb
+E:\DATN\PROGRAM\PosSol\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+E:\DATN\PROGRAM\PosSol\DataAccess\obj\Debug\DataAccess.dll
+E:\DATN\PROGRAM\PosSol\DataAccess\obj\Debug\DataAccess.pdb
+D:\DATN\DATN\PROGRAM\PosSol\DataAccess\bin\Debug\DataAccess.dll
+D:\DATN\DATN\PROGRAM\PosSol\DataAccess\bin\Debug\DataAccess.pdb
+D:\DATN\DATN\PROGRAM\PosSol\DataAccess\bin\Debug\Public.dll
+D:\DATN\DATN\PROGRAM\PosSol\DataAccess\bin\Debug\Public.pdb
+D:\DATN\DATN\PROGRAM\PosSol\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\DATN\DATN\PROGRAM\PosSol\DataAccess\obj\Debug\DataAccess.dll
+D:\DATN\DATN\PROGRAM\PosSol\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\mr tung\Desktop\PosSol\PosSol\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\mr tung\Desktop\PosSol\PosSol\DataAccess\bin\Debug\Public.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\DataAccess\bin\Debug\Public.pdb
+C:\Users\mr tung\Desktop\PosSol\PosSol\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\mr tung\Desktop\PosSol\PosSol\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\mr tung\Desktop\PosSol\PosSol\DataAccess\obj\Debug\DataAccess.pdb
+E:\DATN Ql ban hang\code\PosSol\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+E:\DATN Ql ban hang\code\PosSol\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+E:\DATN Ql ban hang\code\PosSol\DataAccess\obj\Debug\DataAccess.dll
+E:\DATN Ql ban hang\code\PosSol\DataAccess\obj\Debug\DataAccess.pdb
+E:\DATN Ql ban hang\code\PosSol\DataAccess\bin\Debug\DataAccess.dll
+E:\DATN Ql ban hang\code\PosSol\DataAccess\bin\Debug\DataAccess.pdb
+E:\DATN Ql ban hang\code\PosSol\DataAccess\bin\Debug\Public.dll
+E:\DATN Ql ban hang\code\PosSol\DataAccess\bin\Debug\Public.pdb
+E:\DATN Ql ban hang\code\PosSol\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete

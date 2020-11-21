@@ -1,0 +1,182 @@
+﻿<UserControl x:Class="Presentation.UserControls.NhapHangTraUPresentation"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" d:DesignHeight="300" d:DesignWidth="300" MinWidth="1000"
+             Style="{DynamicResource UserControl}" Loaded="UserControl_Loaded">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Style/UserControl.xaml"/>
+                <ResourceDictionary Source="../Style/Textbox.xaml"/>
+                <ResourceDictionary Source="../Style/Button1.xaml"/>
+                <ResourceDictionary Source="../Style/Datagrid.xaml"/>
+                <ResourceDictionary Source="../Style/Label.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                <GradientStop Color="#FFA0B9FB" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <StackPanel Margin="10">
+            <!--Tìm kiếm hóa đơn-->
+            <StackPanel  Orientation="Horizontal" Height="50">
+                <Label Content="Nhập số hoá đơn"  Style="{DynamicResource lbControlLeft}" Width="130" VerticalAlignment="Center"/>
+                <TextBox Name="txtSoHD" PreviewKeyDown="txtSoHD_PreviewKeyDown" Style="{DynamicResource Textbox1}" FontSize="25" Width="200"/>
+                <Button Name="btnHoDon" Click="btnHoDon_Click" Style="{DynamicResource MetroButtonDarkGreen}" Margin="5 0 0 0" Height="40" Padding="5">
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="Nhập" Foreground="White"/>
+                    </StackPanel>
+                </Button>
+                <Label Name="lbWarning" Content="Warning" Style="{DynamicResource LabelWarning}" VerticalAlignment="Center" FontSize="15"/>
+            </StackPanel>
+
+            <!--Thông tin hóa đơn-->
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Số hóa đơn:" Style="{DynamicResource lbControlLeft}" Width="auto"/>
+                <Label Name="lbSoHD" Content="HD.0000000001" Margin="5 0 20 0" FontSize="15" FontWeight="Bold"/>
+                <Label Content="Ngày lập:" Style="{DynamicResource lbControlLeft}" Width="auto"/>
+                <Label Name="lbNgayLap" Content="12/12/15 12:00 AM" FontSize="15" FontWeight="Bold"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Nhân viên:" Style="{DynamicResource lbControlLeft}" Width="auto"/>
+                <Label Name="lbNhanVien" Content="NV.00001" FontSize="15" FontWeight="Bold" Margin="5 0 20 0"/>
+                <Label Content="Khách hàng:"  Style="{DynamicResource lbControlLeft}" Width="auto"/>
+                <Label Name="lbKhachHang" Content="Khách vãng lai" FontSize="15" FontWeight="Bold"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <!--Chi tiết hàng mua trong hóa đơn-->
+                <StackPanel Margin="0 0 10 0">
+                    <Label Content="Chi tiết hàng mua" FontSize="13" Foreground="Gray" FontStyle="Italic"/>
+                    <DataGrid x:Name="dgHangMua" IsReadOnly="True" Style="{DynamicResource Datagrid}" Width="600" Height="220" LoadingRow="dgHangMua_LoadingRow">
+                        <DataGrid.Columns>
+
+                            <!--Mã sản phẩm-->
+                            <DataGridTextColumn Width="100" Header="Mã SP" Binding="{Binding SanPham.MaSP_SP}">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Setter Property="HorizontalAlignment" Value="Left"/>
+                                        <Setter Property="Margin" Value="5 0 0 0"/>
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+
+                            <!--Tên sản phẩm-->
+                            <DataGridTextColumn Width="2*" Header="Tên SP" Binding="{Binding SanPham.TenSP_SP}">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Setter Property="HorizontalAlignment" Value="Left"/>
+                                        <Setter Property="Margin" Value="5 0 0 0"/>
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+
+                            <!--Số lượng mua-->
+                            <DataGridTextColumn Width="50" Header="SL" Binding="{Binding SoLuong}">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+
+                            <!--Trả-->
+                            <DataGridTemplateColumn Width="50" Header="Trả">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Button x:Name="btnTra" Click="btnTra_Click" MouseDoubleClick="btnTra_MouseDoubleClick" Style="{DynamicResource MetroButtonYellowGreen}" Height="30" Padding="2">
+                                            <StackPanel>
+                                                <Image  Source="../Image/Icon/fl-tra.png" Stretch="Uniform" Height="20"/>
+                                            </StackPanel>
+                                        </Button>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
+                <StackPanel>
+                    <Label Content="Danh sách hàng trả" FontSize="13" Foreground="Gray" FontStyle="Italic"/>
+                    <ListBox Grid.Column="0" Name="libHangTra" SelectedValuePath="SanPham.MaSP_SP" SelectedIndex="0" HorizontalContentAlignment="Stretch" SelectionMode="Extended" 
+                     Height="auto" Width="350" MinHeight="50" MaxHeight="300" Background="Transparent" BorderBrush="Gray">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Margin="0 2 0 0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="30"/>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="20"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Button x:Name="btnKhoiPhuc" Click="btnKhoiPhuc_Click" MouseDoubleClick="btnKhoiPhuc_MouseDoubleClick" Style="{DynamicResource MetroButtonYellowGreen}" Height="30" Padding="2" Margin="0 0 3 0">
+                                        <StackPanel>
+                                            <Image  Source="../Image/Icon/fl-left.png" Stretch="Uniform" Height="20"/>
+                                        </StackPanel>
+                                    </Button>
+                                    <TextBlock  Grid.Column="1"  Text="{Binding SanPham.TenSP_SP}" Foreground="Green" FontSize="12" VerticalAlignment="Center"/>
+                                    <Label Grid.Column="2" Content="{Binding SoLuong}" VerticalAlignment="Center"/>
+                                </Grid>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                </StackPanel>
+                <!--Hàng trả-->
+
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Tổng tiền:" Style="{DynamicResource lbControlLeft}" Width="100"/>
+                <Label Name="lbTongTien" Content="0" FontSize="13" FontWeight="Bold" Margin="5 0 0 0" Width="100" HorizontalContentAlignment="Right"/>
+                <Label Content=".VNĐ" FontSize="13" FontWeight="Bold"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Tổng CK SP:" Style="{DynamicResource lbControlLeft}" Width="100"/>
+                <Label Name="lbTongCkSP" Content="0" FontSize="13" FontWeight="Bold" Margin="5 0 0 0" Width="100" HorizontalContentAlignment="Right"/>
+                <Label Content=".VNĐ" FontSize="13" FontWeight="Bold"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Tổng CK HD:" Style="{DynamicResource lbControlLeft}" Width="100"/>
+                <Label Name="lbTongCKHD" Content="0" FontSize="13" FontWeight="Bold" Margin="5 0 0 0" Width="100" HorizontalContentAlignment="Right"/>
+                <Label Content=".VNĐ" FontSize="13" FontWeight="Bold"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Voucher:" Style="{DynamicResource lbControlLeft}" Width="100"/>
+                <Label Name="lbVoucher" Content="0" FontSize="13" FontWeight="Bold" Margin="5 0 0 0" Width="100" HorizontalContentAlignment="Right"/>
+                <Label Content=".VNĐ" FontSize="13" FontWeight="Bold"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Mã giảm giá:" Style="{DynamicResource lbControlLeft}" Width="100"/>
+                <Label Name="lbMaGiamGia" Content="0" FontSize="13" FontWeight="Bold" Margin="5 0 0 0" Width="100" HorizontalContentAlignment="Right"/>
+                <Label Content=".VNĐ" FontSize="13" FontWeight="Bold"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Thanh tiền" Style="{DynamicResource lbControlLeft}" Width="100"/>
+                <Label Name="lbThanhTien" Content="0" FontSize="15" FontWeight="Bold" Margin="5 0 0 0" Width="100" HorizontalContentAlignment="Right"/>
+                <Label Content=".VNĐ" FontSize="15" FontWeight="Bold"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 10 0 0">
+                <Button Name="btnThanhToan" Click="btnThanhToan_Click"  Style="{DynamicResource MetroButtonTomato}" Margin="0 0 0 0" Height="40" Padding="5">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="../Image/Icon/fl-money.png" Stretch="Uniform"/>
+                        <Label Content="Than toán" Foreground="White" VerticalAlignment="Center" FontWeight="Bold"/>
+                    </StackPanel>
+                </Button>
+                <Button Name="btnTiepTucMua" Visibility="Collapsed"  Click="btnTiepTucMua_Click" Style="{DynamicResource MetroButtonTomato}" Margin="10 0 0 0" Height="40" Padding="5">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="../Image/Icon/fl-money.png" Stretch="Uniform"/>
+                        <Label Content="Mua hàng tiếp" Foreground="White" VerticalAlignment="Center" FontWeight="Bold"/>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</UserControl>
